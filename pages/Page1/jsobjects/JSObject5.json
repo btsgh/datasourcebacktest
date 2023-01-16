@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject5",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\t\n\tmyFun1: () => {\n\t\t//write code here\n\t\tconst foo = {}\n\t\t\n\t\tconsole.log(foo.bar);\n\t\tif (Object.hasOwn(foo, 'bar')) \n\t\t{\n  console.log(foo.bar);\n}\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page1_JSObject5",
+  "deleted": false,
+  "gitSyncId": "634650dd3908a23c5fcff711_63c110f11dbeb521bf64b993"
+}

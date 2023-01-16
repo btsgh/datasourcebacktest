@@ -1,0 +1,29 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject8",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\nconst1: 1n + 1,\t\n\t\t \n\t\t\n\t\t\n\t\t\n\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      },
+      {
+        "name": "const1",
+        "value": "1n + 1"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page1_JSObject8",
+  "deleted": false,
+  "gitSyncId": "634650dd3908a23c5fcff711_63c1416103316d5019404351"
+}
