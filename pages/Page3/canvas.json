@@ -1,0 +1,328 @@
+{
+  "unpublishedPage": {
+    "name": "Page3",
+    "slug": "page3",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 560,
+          "containerStyle": "none",
+          "snapRows": 55,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 75,
+          "minHeight": 560,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "MultiSelect1",
+              "isFilterable": true,
+              "displayName": "MultiSelect",
+              "iconSVG": "/static/media/icon.a3495809ae48291a64404f3bb04b0e69.svg",
+              "labelText": "Label",
+              "searchTags": [
+                "dropdown",
+                "tags"
+              ],
+              "topRow": 17,
+              "bottomRow": 24,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "MULTI_SELECT_WIDGET_V2",
+              "serverSideFiltering": false,
+              "hideCard": false,
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `GREEN`))(MultiSelect1.options, MultiSelect1.serverSideFiltering) }}",
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "defaultOptionValue"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\"\n  }, \n\t{\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
+              "placeholderText": "Select option(s)",
+              "isDisabled": false,
+              "key": "3fzcw0e6xz",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 18,
+              "dynamicHeight": "FIXED",
+              "widgetId": "vk63weg6p5",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "MultiTreeSelect1",
+              "displayName": "Multi TreeSelect",
+              "iconSVG": "/static/media/icon.b3e28afbbceae59d6fe826fa409a4b4c.svg",
+              "labelText": "Label",
+              "searchTags": [
+                "dropdown"
+              ],
+              "topRow": 0,
+              "bottomRow": 7,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "MULTI_SELECT_TREE_WIDGET",
+              "hideCard": false,
+              "mode": "SHOW_ALL",
+              "defaultOptionValue": "[\n  \"GREEN\"\n]",
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 29,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\",\n    \"children\": [\n      {\n        \"label\": \"Dark Blue\",\n        \"value\": \"DARK BLUE\"\n      },\n      {\n        \"label\": \"Light Blue\",\n        \"value\": \"LIGHT BLUE\"\n      }\n    ]\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
+              "placeholderText": "Select option(s)",
+              "isDisabled": false,
+              "key": "qdg6x9lybn",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 49,
+              "dynamicHeight": "FIXED",
+              "widgetId": "7hnyn67y3r",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "expandAll": false,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "allowClear": false,
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "TreeSelect1",
+              "displayName": "TreeSelect",
+              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+              "labelText": "Label",
+              "searchTags": [
+                "dropdown"
+              ],
+              "topRow": 1,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "SINGLE_SELECT_TREE_WIDGET",
+              "hideCard": false,
+              "defaultOptionValue": "BLUE",
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": "[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\",\n    \"children\": [\n      {\n        \"label\": \"Dark Blue\",\n        \"value\": \"DARK BLUE\"\n      },\n      {\n        \"label\": \"Light Blue\",\n        \"value\": \"LIGHT BLUE\"\n      }\n    ]\n  },\n\t{\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]",
+              "placeholderText": "Select option",
+              "isDisabled": false,
+              "key": "8z18c5dyg3",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 27,
+              "dynamicHeight": "FIXED",
+              "widgetId": "d2q36qoayu",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "expandAll": false,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "allowClear": false,
+              "minDynamicHeight": 4
+            },
+            {
+              "widgetName": "CategorySlider1",
+              "displayName": "Category Slider",
+              "iconSVG": "/static/media/icon.cbd0db7a0bd317a6e4cbbd72417f8dee.svg",
+              "labelText": "Size",
+              "searchTags": [
+                "range"
+              ],
+              "topRow": 12,
+              "bottomRow": 20,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "CATEGORY_SLIDER_WIDGET",
+              "hideCard": false,
+              "defaultOptionValue": "lg",
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 41,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "shouldTruncate": false,
+              "labelPosition": "Left",
+              "options": [
+                {
+                  "label": "Extra Small",
+                  "value": "xs"
+                },
+                {
+                  "label": "Small",
+                  "value": "sm"
+                },
+                {
+                  "label": "Medium",
+                  "value": "md"
+                },
+                {
+                  "label": "Large",
+                  "value": "lg"
+                },
+                {
+                  "label": "Extra Large",
+                  "value": "xl"
+                }
+              ],
+              "isDisabled": false,
+              "key": "qc6y9uia63",
+              "labelTextSize": "0.875rem",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "ebwtovyqwu",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "sliderSize": "m",
+              "shouldScroll": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "showMarksLabel": true
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "CurrencyInput1",
+              "dynamicPropertyPathList": [],
+              "displayName": "Currency Input",
+              "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
+              "searchTags": [
+                "amount",
+                "total"
+              ],
+              "topRow": 17,
+              "bottomRow": 24,
+              "defaultCurrencyCode": "INR",
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "CURRENCY_INPUT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 21,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Top",
+              "labelStyle": "",
+              "isDisabled": false,
+              "key": "b4mpy0b5yz",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 41,
+              "dynamicHeight": "FIXED",
+              "widgetId": "jqhs31e13m",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "showStepArrows": false,
+              "isVisible": true,
+              "label": "Label",
+              "allowCurrencyChange": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "decimals": 2,
+              "iconAlign": "left",
+              "defaultText": "1.000000000",
+              "minDynamicHeight": 4
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page3",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "634650dd3908a23c5fcff711_63c64e3e4ae4345e31af1357"
+}
